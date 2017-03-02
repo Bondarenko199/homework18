@@ -51,7 +51,7 @@
     margin-right: 15px;
     display: inline-block;
     float: left;
-    background: url("../../images/background/twitter-bird.png") no-repeat;
+    background: url("../images/background/twitter-bird.png") no-repeat;
     @include background-size(inherit);
   }
   p {
@@ -102,15 +102,15 @@
 }
 
 .main-address:before {
-  background: url("../../image/background/adress.png") no-repeat;
+  background: url("../images/background/address.png") no-repeat;
 }
 
 .phone-numbers:before {
-  background: url("../../images/background/phone.png") no-repeat;
+  background: url("../images/background/phone.png") no-repeat;
 }
 
 .email:before {
-  background: url("../../images/background/email.png") no-repeat;
+  background: url("../images/background/email.png") no-repeat;
 }
 
 .follow-us-container {

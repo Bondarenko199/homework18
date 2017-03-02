@@ -9278,20 +9278,20 @@ body {
 }
 
 .graphic-design {
-  background: #ffea00 url("../../images/background/graphic-design.png") 50% 45% no-repeat;
+  background: #ffea00 url("../images/background/graphic-design.png") 50% 45% no-repeat;
 }
 
 .web-development {
-  background: #ffea00 url("../../images/background/web-development.png") 50% 45% no-repeat;
+  background: #ffea00 url("../images/background/web-development.png") 50% 45% no-repeat;
 }
 
 .web-design {
-  background: #ffea00 url("../../images/background/web-design.png") 50% 45% no-repeat;
+  background: #ffea00 url("../images/background/web-design.png") 50% 45% no-repeat;
 }
 
 .item {
   padding: 15px 0 60px;
-  background: url("../../images/background/introduction_bg.jpg");
+  background: url("../images/background/introduction_bg.jpg");
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -9415,7 +9415,7 @@ body {
   margin-right: 15px;
   display: inline-block;
   float: left;
-  background: url("../../images/background/twitter-bird.png") no-repeat;
+  background: url("../images/background/twitter-bird.png") no-repeat;
   -moz-background-size: inherit;
   -o-background-size: inherit;
   -webkit-background-size: inherit;
@@ -9466,15 +9466,15 @@ body {
 }
 
 .main-address:before {
-  background: url("../../image/background/adress.png") no-repeat;
+  background: url("../images/background/address.png") no-repeat;
 }
 
 .phone-numbers:before {
-  background: url("../../images/background/phone.png") no-repeat;
+  background: url("../images/background/phone.png") no-repeat;
 }
 
 .email:before {
-  background: url("../../images/background/email.png") no-repeat;
+  background: url("../images/background/email.png") no-repeat;
 }
 
 .follow-us-container h3 {

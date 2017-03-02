@@ -1,0 +1,40 @@
+.main-header {
+  padding: 30px 0;
+}
+
+.main-logo {
+  width: 115px;
+  height: 115px;
+  display: block;
+  overflow: hidden;
+}
+
+.button-toggle-bg {
+  width: 30px;
+  height: 2px;
+  display: block;
+  background: #000;
+}
+
+.middle-button-toggle-bg {
+  margin: 5px 0;
+}
+
+.navbar-toggler-right {
+  top: 45px;
+  right: 0;
+}
+
+.nav-button {
+  padding: 0 10px;
+  display: block;
+  text-align: center;
+  font: 1.1rem "code-light-regular", sans-serif;
+  line-height: 70px;
+  @include transition(.5s ease-in-out);
+  text-transform: uppercase;
+  color: #000;
+  &:hover {
+    background: #ffea00;
+  }
+}

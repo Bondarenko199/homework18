@@ -1,0 +1,30 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid";
+@import "../../../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "../../../node_modules/owl.carousel/src/scss/owl.carousel";
+
+@import "compass";
+@import "compass/css3";
+@import "base/fonts";
+@import "base/reset";
+@import "base/owl_reset";
+@import "base/form";
+
+@import "base/core";
+@import "layout/header";
+@import "layout/we_create";
+@import "layout/introduction";
+@import "layout/our_works";
+@import "layout/our-clients";
+@import "layout/footer";
+@import "base/masonry";
+@import "base/media";
+
+

@@ -1,0 +1,56 @@
+.item {
+  padding: 15px 0 60px;
+  background: url("../../images/background/introduction_bg.jpg");
+  @include background-size(cover);
+}
+
+.introduction-text-container {
+  padding-left: 5%;
+  h2 {
+    margin-top: 13%;
+    font-size: 5vw;
+    span{
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.introduction-text {
+  margin-bottom: 7%;
+  span {
+    margin-bottom: 3px;
+    display: inline-block;
+    color: #fff;
+    font-size: 2vw;
+  }
+}
+
+.order-button {
+  width: 14vw;
+  margin-left: 50%;
+  font-size: 2vw;
+  line-height: 4vw;
+}
+
+.introduction-img-container {
+  padding-right: 5%;
+}
+
+.introduction-img-container-inner-list-1 li,
+.introduction-img-container-inner-list-2 li,
+.introduction-img-container-inner-list-3 li,
+.introduction-img-container-inner-list-4 li {
+  width: 33.3333%;
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.introduction-img-container-inner-list-1,
+.introduction-img-container-inner-list-3 {
+  position: relative;
+  left: -33.3333%;
+}

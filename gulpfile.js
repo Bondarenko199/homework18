@@ -115,10 +115,10 @@ gulp.task('clean', function() {
     return del.sync('dist');
 });
 
-gulp.task('clear', function () {
+gulp.task('clear', ['img'], function () {
     return cache.clearAll();
 });
 
-gulp.task('build', ['clean', 'html', 'compass', 'js', 'img', 'font'], function() {
+gulp.task('build', ['clean', 'html', 'compass', 'js', 'clear', 'font'], function() {
 
 });

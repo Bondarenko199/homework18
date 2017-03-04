@@ -8832,13 +8832,13 @@ a:visited {
 
 .custom-owl-prev,
 .custom-owl-prev-small {
-  background: #000 url("../../images/background/left-arrow.png") 50% 50% no-repeat;
+  background: #000 url("../images/background/left-arrow.png") 50% 50% no-repeat;
 }
 
 .custom-owl-next,
 .custom-owl-next-small {
   right: 0;
-  background: #000 url("../../images/background/right-arrow.png") 50% 50% no-repeat;
+  background: #000 url("../images/background/right-arrow.png") 50% 50% no-repeat;
 }
 
 .owl-dots {
